@@ -5,6 +5,8 @@ ruby '2.3.0'
 
 gem 'nokogiri'
 
+gem 'bcrypt', '~> 3.1.7'
+
 gem 'bootstrap-sass'
 gem 'sassc-rails'
 gem 'jquery-rails'
