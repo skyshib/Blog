@@ -17,6 +17,7 @@ gem 'bootstrap-will_paginate'
 gem 'redcarpet'
 
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4'
 
@@ -76,6 +77,7 @@ end
 group :production do
   gem 'pg'
   gem 'activerecord-postgresql-adapter'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
