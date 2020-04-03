@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'articles/index'
+  get 'home/index'
   resources :articles
   root :to => 'articles#index'
   get 'about', to: 'pages#about'
