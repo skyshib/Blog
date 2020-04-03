@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :articles
-  root 'articles#index'
+  root :to => 'articles#index'
   get 'about', to: 'pages#about'
   get 'signup', to: 'users#new'
   resources :users, except: [:new]
